@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackendAssessment</name>
+    </assembly>
+    <members>
+        <member name="M:BackendAssessment.Controllers.AuthenticationController.OnboardCustomer(BackendAssessmentCore.DTO.Request.UserRequestDto)">
+            <summary>
+            Onboarding a new customer
+            </summary>
+            <param name="request"></param>
+            <returns>Items in the Response UserResponseDto </returns>
+            <remarks>
+            
+            sample
+            POST/api/OnboardCustomer
+            </remarks> 
+            <response code ="200">Customer onboarded successfully </response>
+        </member>
+        <member name="M:BackendAssessment.Controllers.CustomerController.GetAllOnBoardedCustomersAsync(System.Int32,System.Int32)">
+            <summary>
+            Get all Onboarded Customer
+            </summary>
+            <param name="pageSize"></param>
+            <param name="pageNumber"></param>
+            <returns>Items in the Response List of UserResponseDto </returns>
+            <remarks>
+            
+            sample
+            GET/api/GetAllCustomer
+            </remarks> 
+            <response code ="200">Get onboarded customer successfully</response>
+        </member>
+        <member name="M:BackendAssessment.Controllers.GetbankController.GetBanks">
+            <summary>
+            Get all BankName and BankCode
+            </summary>
+            <returns>Items in the Response List of Getbanks </returns>
+            <remarks>
+            
+            sample
+            GET/api/GetBank
+            </remarks> 
+            <response code ="200">Get bank successfully</response>
+        </member>
+    </members>
+</doc>

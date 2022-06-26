@@ -1,0 +1,14 @@
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\bin\Debug\net5.0\BackendAssessmentInfrastructure.deps.json
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\bin\Debug\net5.0\BackendAssessmentInfrastructure.runtimeconfig.json
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\bin\Debug\net5.0\BackendAssessmentInfrastructure.runtimeconfig.dev.json
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\bin\Debug\net5.0\BackendAssessmentInfrastructure.dll
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\bin\Debug\net5.0\ref\BackendAssessmentInfrastructure.dll
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\bin\Debug\net5.0\BackendAssessmentInfrastructure.pdb
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.AssemblyInfo.cs
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.dll
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\ref\BackendAssessmentInfrastructure.dll
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.pdb
+C:\Users\hp\source\repos\BackendAssessment\BackendAssessmentInfrastructure\obj\Debug\net5.0\BackendAssessmentInfrastructure.genruntimeconfig.cache
