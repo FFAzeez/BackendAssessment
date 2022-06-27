@@ -32,11 +32,7 @@ namespace BackendAssessment.Controllers
         public async Task<IActionResult> GetAllOnBoardedCustomersAsync(int pageSize, int pageNumber)
         {
             var result = await _userServices.GetAllOnboarded(pageSize, pageNumber);
-            if (result.IsSuccessFul)
-            {
-                return StatusCode((int)result.ResponseCode, result);
-            }
-            return BadRequest(result);
+            return Ok(result);
         }
 
     }

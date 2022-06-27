@@ -9,7 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAssessmentInfrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAssessmentCore", "BackendAssessmentCore\BackendAssessmentCore.csproj", "{822C04F5-A196-4B6E-AF98-CDD7A5FECDDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAssessmentTest", "BackendAssessmentTest\BackendAssessmentTest.csproj", "{D5A6A105-33CA-4D10-8099-07F222C4CAC0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D27E1312-2D60-4E1B-8BCA-124C3F103353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAssessmentText", "BackendAssessmentText\BackendAssessmentText.csproj", "{E877E30C-A070-4F81-9E47-7990378C5373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAssessmentCoreTest", "BackendAssessmentCoreTest\BackendAssessmentCoreTest.csproj", "{BCF4E3CD-A908-4F2F-88B9-6A3B659690FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAssessmentInfrastructureTest", "BackendAssessmentInfrastructureTest\BackendAssessmentInfrastructureTest.csproj", "{704FCAA8-71E9-401B-B642-4B5387447728}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,13 +35,26 @@ Global
 		{822C04F5-A196-4B6E-AF98-CDD7A5FECDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{822C04F5-A196-4B6E-AF98-CDD7A5FECDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{822C04F5-A196-4B6E-AF98-CDD7A5FECDDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5A6A105-33CA-4D10-8099-07F222C4CAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5A6A105-33CA-4D10-8099-07F222C4CAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5A6A105-33CA-4D10-8099-07F222C4CAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5A6A105-33CA-4D10-8099-07F222C4CAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E877E30C-A070-4F81-9E47-7990378C5373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E877E30C-A070-4F81-9E47-7990378C5373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E877E30C-A070-4F81-9E47-7990378C5373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E877E30C-A070-4F81-9E47-7990378C5373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF4E3CD-A908-4F2F-88B9-6A3B659690FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF4E3CD-A908-4F2F-88B9-6A3B659690FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF4E3CD-A908-4F2F-88B9-6A3B659690FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF4E3CD-A908-4F2F-88B9-6A3B659690FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704FCAA8-71E9-401B-B642-4B5387447728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704FCAA8-71E9-401B-B642-4B5387447728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704FCAA8-71E9-401B-B642-4B5387447728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704FCAA8-71E9-401B-B642-4B5387447728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E877E30C-A070-4F81-9E47-7990378C5373} = {D27E1312-2D60-4E1B-8BCA-124C3F103353}
+		{BCF4E3CD-A908-4F2F-88B9-6A3B659690FC} = {D27E1312-2D60-4E1B-8BCA-124C3F103353}
+		{704FCAA8-71E9-401B-B642-4B5387447728} = {D27E1312-2D60-4E1B-8BCA-124C3F103353}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1BBAB2F-5FCB-4DD8-B78E-57B0801B32EC}
